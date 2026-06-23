@@ -1,6 +1,6 @@
-# Max Lopes Portfolio
+# Maximo Lopes Portfolio
 
-Portfolio público de Max Lopes para posicionamento em Product Operations, Operações Logísticas, Dados, Customer Success e IA aplicada à logística.
+Portfolio público de Maximo Lopes para posicionamento em Product Operations, Operações Logísticas, Dados, Customer Success e IA aplicada à logística.
 
 ## Links
 

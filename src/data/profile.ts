@@ -14,9 +14,10 @@ import {
 } from "lucide-react";
 
 export const profile = {
-  name: "Max Lopes",
+  name: "Maximo Lopes",
   fullName: "Maximo Lopes da Silva",
-  headline: "Product Operations | Operações Logísticas | Dados | Customer Success | IA Aplicada",
+  headline:
+    "Gerente, Coordenador, Supervisor, Analista, Líder, Product Operations | Operações Logísticas | Dados | Customer Success | IA Aplicada ao transporte e logística",
   location: "Salvador, BA",
   email: "maxlopez@outlook.com.br",
   phone: "71 9 9303 4258",
@@ -24,7 +25,7 @@ export const profile = {
   linkedinUrl: "https://www.linkedin.com/in/maximo-lopes",
   resumeUrl: "/files/max-lopes-curriculo-atual.pdf",
   summary:
-    "Profissional de operações logísticas e transportes em evolução para Product Operations. Atua na interseção entre Operações, Produto, Dados e Customer Success, transformando dores operacionais em processos, requisitos, indicadores, automações, protótipos e melhorias sistêmicas."
+    "Sou Maximo Lopes, um profissional de Logística & Transportes, Operações, Frete, Data Analytics, Product Ops, Customer Success e Otimização de Processos, com profunda atuação em campo liderando múltiplos perfis de operações de transportes, implementando TMS e demais sistemas inerentes ao transporte, gerindo e capacitando mesas de fretes, criando e implantando indicadores e aplicando IA a processos, fluxos e rotinas para promover produtividade e eficiência operacional."
 };
 
 export const metrics = [
@@ -41,8 +42,8 @@ export const metrics = [
     icon: Truck
   },
   {
-    label: "Operação desde",
-    value: "2020",
+    label: "Vivência operacional",
+    value: "10 anos",
     detail: "Experiência em transporte, atendimento, indicadores e serviços.",
     icon: Route
   },

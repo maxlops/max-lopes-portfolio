@@ -7,18 +7,17 @@ import { MetricCard } from "./MetricCard";
 export function HeroSection() {
   return (
     <section id="inicio" className="border-b border-border bg-white">
-      <div className="mx-auto grid max-w-6xl gap-12 px-4 py-14 md:px-6 md:py-20 lg:grid-cols-[1.02fr_0.98fr] lg:items-center">
+      <div className="mx-auto grid max-w-6xl gap-12 px-4 py-14 md:px-6 md:py-20 lg:grid-cols-[1.02fr_0.98fr] lg:items-start">
         <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.45 }}>
-          <div className="mb-5 inline-flex items-center gap-2 rounded-md border border-brand-100 bg-brand-50 px-3 py-2 text-sm font-semibold text-brand-900">
-            <Sparkles className="h-4 w-4" aria-hidden="true" />
-            {profile.headline}
+          <div className="mb-5 inline-flex max-w-full items-start gap-2 rounded-md border border-brand-100 bg-brand-50 px-3 py-2 text-sm font-semibold text-brand-900">
+            <Sparkles className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true" />
+            <span>{profile.headline}</span>
           </div>
           <h1 className="max-w-4xl text-4xl font-bold leading-[1.05] text-ink md:text-5xl lg:text-6xl">
-            Transformando operações logísticas em produtos, dados e eficiência operacional.
+            Transformando operações logísticas com dados e expertise de campo.
           </h1>
-          <p className="mt-6 max-w-2xl text-lg leading-8 text-muted">
-            Sou Max Lopes, profissional de Product Operations, Operações Logísticas, Customer Success e Dados, com
-            atuação prática em transportes, TMS, mesa de fretes, indicadores e IA aplicada à produtividade operacional.
+          <p className="mt-6 max-w-2xl text-left text-base leading-7 text-muted md:text-justify md:text-lg md:leading-8">
+            {profile.summary}
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button href="#projetos" size="lg">

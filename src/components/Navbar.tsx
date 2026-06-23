@@ -23,7 +23,7 @@ export function Navbar() {
           <span className="flex h-9 w-9 items-center justify-center rounded-md bg-ink text-sm font-bold text-white">
             ML
           </span>
-          <span className="hidden text-sm font-bold text-ink sm:inline">Max Lopes</span>
+          <span className="hidden text-sm font-bold text-ink sm:inline">Maximo Lopes</span>
         </a>
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Navegação principal">
